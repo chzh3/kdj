@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    background: url(kdj_big_dipper.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left:0px;
+    top:0px;
+    z-index: -1;
+}
+
+main {
+    width: 80vw;
+    background: black;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    padding: 1em;
+    margin-bottom: 5vw;
+}
+
+main > * {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/*hr {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}*/
+
+h1 {
+    font-size: 7vw;
+    width: 100%;
+    text-align: center;
+    font-family: 'Kreon', sans-serif;
+}
+
+img {
+    width: 100%;
+}
